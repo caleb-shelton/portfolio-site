@@ -12,66 +12,36 @@ export default function Home() {
       </Head> 
 
       <div className="main">
-            <div className="bio">
-                <h1>Hello! 👋 I'm
-                  <RoughNotation type="highlight" show={true} color="#fff176"> Caleb</RoughNotation>, a Software Engineer <br /> based in Cambridge.</h1>
-                <div className="paragraph">
-                    I am a Cambridge based
-                    <RoughNotation type="underline" animationDelay={1000} show={true} color="#000000"> Software Engineer </RoughNotation> 
-                    and
-                    <RoughNotation type="underline" animationDelay={2000} show={true} color="#000000"> First Class Graduate </RoughNotation>
-                    of Computer Science. <br /> My department awarded me
-                    <RoughNotation type="highlight" animationDelay={4000} show={true} color="#9787FF"> 'the best individual performance by a BSc Computing student'.</RoughNotation>
-                    <br />
-                    I am highly solution focused and excel in problem solving environments. <br />I work
-                    full-time as a Software Engineer at Unipart Digital solving complex logistical
-                    challenges using Linux, Python, Docker, and cloud technologies.
-                </div>
-                <div className="buttons">
-                    <a href="https://www.linkedin.com/in/caleb-shelton-46a760143/"><button>View LinkedIn</button></a>
-                    <a href="https://github.com/caleb-shelton"><button>View Github</button></a>
-
-                </div>
-            </div><div className="picture">
+          <div className="bio">
+            <h1>Hello! 👋 I'm
+              <RoughNotation type="highlight" show={true} color="#fff176"> Caleb</RoughNotation>, a Software Engineer <br /> based in Cambridge.</h1>
+            <div className="paragraph">
+                I am a Cambridge based
+                <RoughNotation type="underline" animationDelay={1000} show={true} color="#000000"> Software Engineer </RoughNotation> 
+                and
+                <RoughNotation type="underline" animationDelay={2000} show={true} color="#000000"> First Class Graduate </RoughNotation>
+                of Computer Science. <br /> My department awarded me
+                <RoughNotation type="highlight" animationDelay={4000} show={true} color="#9787FF"> 'the best individual performance by a BSc Computing student'.</RoughNotation>
+                <br />
+                I am highly solution focused and excel in problem solving environments. <br />I work
+                full-time as a Software Engineer at Unipart Digital solving complex logistical
+                challenges using Linux, Python, Docker, and cloud technologies.
+            </div>
+            <div className="buttons">
+                <a href="https://www.linkedin.com/in/caleb-shelton-46a760143/"><button>View LinkedIn</button></a>
+                <a href="https://github.com/caleb-shelton"><button>View Github</button></a>
+            </div>
+          </div>
+          <div className="picture">
             <pre className="line-numbers">
               <code className="language-js">
                 {`print("hello world!")`}
               </code>
             </pre>
-                {/* <img src="snippet.svg" /> */}
-                
-            </div>
+          </div>
       </div>
 
-      {/* <div className="main">
-            <div className="half">
-                <h1>Projects 🚀</h1>
-                <div className="paragraph">
-                    <h2>Test Project</h2>
-                    <i><h3>WIP</h3></i>
-                    WIP
-                </div>
-            </div><div className="half">
-                <h1>Skills 💻</h1>
-                <div className="paragraph">
-                    <ul>
-                        <li>Python</li>
-                        <li>Linux</li>
-                        <li>React.js/Next.js</li>
-                        <li>Git</li>
-                        <li>Django/Flask/Odoo</li>
-                        <li>Cloud development</li>
-                        <li>HTML/CSS/UI Design</li>
-                        <li>Adobe CC Suite</li>
-                        <li>Electronics/Systems Engineering</li>
-                        <li>Strong communication and interpersonal skills</li>
-                    </ul>
-                </div>
-            </div>
-        </div> */}
-
       <style jsx global>{`
-
         * {
           margin: 0;
         }
