@@ -20,8 +20,8 @@ export default function Home() {
                 <RoughNotation type="underline" animationDelay={1000} show={true} color="#000000"> Software Engineer </RoughNotation> 
                 and
                 <RoughNotation type="underline" animationDelay={2000} show={true} color="#000000"> First Class Graduate </RoughNotation>
-                of Computer Science. <br /> My department awarded me
-                <RoughNotation type="highlight" animationDelay={4000} show={true} color="#9787FF"> 'the best individual performance by a BSc Computing student'.</RoughNotation>
+                of Computer Science. <br />
+                <RoughNotation type="highlight" animationDelay={4000} show={true} color="#9787FF"> 'My department awarded me the best individual performance by a BSc Computing student'.</RoughNotation>
                 <br />
                 I am highly solution focused and excel in problem solving environments. <br />I work
                 full-time as a Software Engineer at Unipart Digital solving complex logistical
